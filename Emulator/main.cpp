@@ -8,8 +8,7 @@ int main()
 
     emu.startCPU();
     emu.load(path);
-
-
+    
     while (true)
     {
         emu.cycle();
